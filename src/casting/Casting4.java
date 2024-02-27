@@ -12,7 +12,7 @@ public class Casting4 {
         double didv3 = 3.0/ 2;
         System.out.println("didv3 = " + didv3); // 1.5
 
-        double div4 = (double) 3 / 2;
+        double div4 = (double) 3 / 2; //명시적 형변환
         System.out.println("div4 = " + div4); // 1.5
 
         int a = 3;
@@ -21,3 +21,6 @@ public class Casting4 {
         System.out.println("result = " + result); //1.5
     }
 }
+
+//같은 타입끼리의 계산은 같은 타입의 결과를 낸다.
+//서로 다른 타입의 계산은 큰 범위로 자동 형변환이 일어난다.
