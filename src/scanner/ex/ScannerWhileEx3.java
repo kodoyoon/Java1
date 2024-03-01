@@ -10,12 +10,12 @@ public class ScannerWhileEx3 {
 
         int sum = 0;
         int count = 0;
-        int input = 0;
+        int input = 0; //사용자의 입력을 받아들이고 해당 값을 처리하는데 필요
 
         System.out.println("숫자를 입력하세요. 입력을 중단하라면 -1 을 입력하세요.");
 
         while(true) {
-            input = scanner.nextInt();
+            input = scanner.nextInt(); //사용자로부터 정수를 입력받아서 input 에 저장
             if(input == -1 ) {
                 break;
             }
