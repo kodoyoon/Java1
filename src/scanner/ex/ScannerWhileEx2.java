@@ -11,7 +11,7 @@ public class ScannerWhileEx2 {
             int price = input.nextInt();
 
 
-            if (price == 1) {
+            if (price == -1) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             }
