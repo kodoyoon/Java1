@@ -7,7 +7,7 @@ public class ArrayEx4 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int[] numbers = new int[5];
+        int[] numbers = new int[5]; // 5개의 정수를 입력 받는것.
         int sum = 0;
         double average = 0;
 
