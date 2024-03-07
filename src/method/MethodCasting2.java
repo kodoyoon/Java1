@@ -6,7 +6,7 @@ public class MethodCasting2 {
         int number = 100;
         printNumber(number);
     }
-    private static void printNumber(double n)  {
+    private static void printNumber(double n)  { //double 만 받는거야.
         System.out.println("숫자: " + n);
     }
 }

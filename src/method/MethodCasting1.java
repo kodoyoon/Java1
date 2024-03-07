@@ -6,7 +6,7 @@ public class MethodCasting1 {
         printNumber((int) number); //명시적 형번환을 사용해 double 을 int 로 변환
     }
 
-    public static void printNumber(int n){
+    public static void printNumber(int n){ //int 만 받는거야
         System.out.println("숫자: " + n);
     }
 }
