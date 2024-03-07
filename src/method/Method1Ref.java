@@ -11,7 +11,7 @@ public class Method1Ref {
 
     }
 //add 메서드
-    public static int add(int a, int b) { // 6, 9 번째 호출
+    public static int add(int a, int b) { // 6, 9 번째 로부터 값을 전달받고, 15번째 실행
         System.out.println(a + "+" + b + "연산 수행");
         int sum = a + b;
         return sum; //7, 10 에 return 해줌
